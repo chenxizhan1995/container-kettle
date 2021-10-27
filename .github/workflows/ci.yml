@@ -1,0 +1,9 @@
+name: ci
+on: push
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        run: echo hello
